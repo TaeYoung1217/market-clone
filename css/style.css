@@ -9,7 +9,7 @@ body {
     sans-serif;
 }
 .media-info-message {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
@@ -20,8 +20,8 @@ body {
   background-color: red;
   opacity: 1;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .media-info-message {
-    opacity: 0;
+    display: none;
   }
 }
