@@ -24,9 +24,18 @@ footer {
   margin: 0 20px 0 20px;
   cursor: pointer;
 }
+
 .footer-icons > div {
   margin-top: 5px;
 }
+@keyframes icons-doong {
+  from {
+    transform: translateY(-10px);
+  }
+}
 .footer-icons__img {
   width: 30px;
+}
+.footer-icons:hover .footer-icons__img {
+  animation: 2s icons-doong;
 }
