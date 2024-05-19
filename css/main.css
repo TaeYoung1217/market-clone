@@ -1,6 +1,7 @@
 main {
   padding: 30px 20px 80px 20px;
-  clear: both;
+  height: auto;
+  min-height: 100%;
 }
 .item-list {
   display: flex;

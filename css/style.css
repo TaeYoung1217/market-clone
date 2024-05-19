@@ -13,7 +13,7 @@ body {
     "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
     sans-serif;
 }
-.media-info-message {
+/* .media-info-message {
   position: fixed;
   top: 0;
   left: 0;
@@ -28,5 +28,5 @@ body {
 @media screen and (max-width: 500px) {
   .media-info-message {
     display: none;
-  }
+  } */
 }
